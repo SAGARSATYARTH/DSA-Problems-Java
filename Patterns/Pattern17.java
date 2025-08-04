@@ -1,3 +1,12 @@
+/* n=5
+
+                *
+                *       *
+*       *       *       *       *
+                *       *
+                *
+
+ */
 import java.util.Scanner;
 
 public class Pattern17 {
@@ -13,16 +22,16 @@ public class Pattern17 {
                 }else{
                     System.out.print("\t");
                 }
-                for(int j=1;j<=str;j++){
-                    System.out.print("*\t");
-                }
-                if(i<=n/2){
-                    str++;
-                }else{
-                    str--;
-                }
-                System.out.println();
             }
+            for(int j=1;j<=str;j++){
+                System.out.print("*\t");
+            }
+            if(i<=n/2){
+                str++;
+            }else{
+                str--;
+            }
+            System.out.println();
         }
         sc.close();
     }
