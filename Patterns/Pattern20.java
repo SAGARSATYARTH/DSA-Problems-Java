@@ -1,3 +1,10 @@
+/* n=5
+*                               *
+*                               *
+*               *               *
+*       *               *       *
+*                               *
+ */
 import java.util.Scanner;
 
 public class Pattern20 {
