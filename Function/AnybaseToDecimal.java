@@ -1,4 +1,4 @@
-// You are a number n and b1 is the base of n, then convert the number into its corresponding value in base b2.
+// You are a number n and b1 is the base of n, then convert the number into its corresponding value in decimal.
 
 import java.util.Scanner;
 
