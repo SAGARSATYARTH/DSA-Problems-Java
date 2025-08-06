@@ -38,7 +38,7 @@ public class AnyBaseSubtraction {
         System.out.print("Enter base : ");
         int base=sc.nextInt();
 
-        System.out.println("Sum of "+num1+" + "+num2+" is : "+subtraction(num1, num2, base));
+        System.out.println("Sub of "+num2+" + "+num1+" is : "+subtraction(num1, num2, base));
 
         sc.close();
     }
