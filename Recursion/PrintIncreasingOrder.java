@@ -9,13 +9,13 @@ public class PrintIncreasingOrder {
         System.out.print("Enter n : ");
         int n=scn.nextInt();
 
-        decreasingOrder(n);
+        increasingOrder(n);
     }
-    public static void decreasingOrder(int n){
+    public static void increasingOrder(int n){
         if(n==0){
             return;
         }
-        decreasingOrder(n-1);
+        increasingOrder(n-1);
         System.out.println(n);
     }   
 }
