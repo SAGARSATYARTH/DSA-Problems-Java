@@ -14,7 +14,7 @@ public class FirstIndexOfOccurrence {
         }
         System.out.print("Enter k : ");
         int k=scn.nextInt();
-        System.out.println("at index : "+firstOccurrence(arr, 0 ,8));
+        System.out.println("at index : "+firstOccurrence(arr, 0 ,k));
 
         scn.close();
     }
