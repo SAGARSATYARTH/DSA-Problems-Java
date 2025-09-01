@@ -14,7 +14,7 @@ public class LastIndexOfOccurrence {
         }
         System.out.print("Enter k : ");
         int k=scn.nextInt();
-        System.out.println("at index : "+lastOccurrence(arr, 0 ,k));
+        System.out.println("at index of : "+lastOccurrence(arr, 0 ,k));
 
         scn.close();
     }
@@ -33,5 +33,10 @@ public class LastIndexOfOccurrence {
             return -1;
         }
     }
+
+   
+    
+   
+
     
 }
